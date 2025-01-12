@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>SiteArche</title>
+  </head>
+  <body>
+    <!-- Header Starts here-->
+    <div class="logo">
+      <img width="200px" src="images/logo.png" alt="logo" />
+    </div>
+
+    <nav>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="index.html">Products</a></li>
+          <li><a href="services.html">Blog</a></li>
+          <li><a href="about.html">Succes Stories</a></li>
+          <li><a href="contact.html">Our Work</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <!-- Header finished here-->
+
+    <!-- Home Page Start here-->
+
+    <div class="banner">
+      <div class="text-block">
+        <h1>Welcome to SiteArche</h1>
+        <p>
+          Create any type of Website <br />
+          for your Business
+        </p>
+        <a href="#" class="btn-primary">Create Website Now</a>
+      </div>
+    </div>
+
+    <!-- Banner   Finished here-->
+
+    <!-- Featured  Starts here-->
+    <h1 class="heading">Our Services</h1>
+    <div class="row">
+        <div class="container">
+      <div class="col-4">
+        <img class="img-responsive" src="images/image1.jpg" alt="Website Development"/><br />
+        <h3>Website Development</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates
+          aut iste facere ex fugiat veniam iusto cupiditate, quo, animi
+          consequuntur explicabo illo! Optio, eligendi? Doloremque beatae cumque
+          consequuntur aspernatur minus!
+        </p>
+      </div>
+
+      <div class="col-4">
+        <img class="img-responsive" src="images/image2.jpg" alt="Website Development"  /><br />
+        <h3>Graphics Design</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates
+          aut iste facere ex fugiat veniam iusto cupiditate, quo, animi
+          consequuntur explicabo illo! Optio, eligendi? Doloremque beatae cumque
+          consequuntur aspernatur minus!
+        </p>
+      </div>
+
+      <div class="col-4">
+        <img class="img-responsive" src="images/image3.jpg " alt="Website Development"  /><br />
+        <h3>Digital Marketing</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates
+          aut iste facere ex fugiat veniam iusto cupiditate, quo, animi
+          consequuntur explicabo illo! Optio, eligendi? Doloremque beatae cumque
+          consequuntur aspernatur minus!
+        </p>
+    </div>
+      </div>
+    </div>
+
+    <div class="row ad-banner">
+        <div class="col-12">
+<img class="img-responsive" src="images/ad.jpg" alt="ad" height="100px" width="400px">
+        </div>
+    </div>
+
+    <!-- Featured  Ends here-->
+
+    <div class="row"> 
+        <div class="col-6">
+            <h3>Graphics Design</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates
+          aut iste facere ex fugiat veniam iusto cupiditate, quo, animi
+          consequuntur explicabo illo! Optio, eligendi? Doloremque beatae cumque
+          consequuntur aspernatur minus!
+        </p>
+
+        </div>
+
+        <div class="col-6">
+            <img class="img-responsive" src="images/image4.jpg" alt="Side Image">
+
+        </div>
+
+
+
+
+    </div>
+
+    
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.left = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.left = "-200px";
+      }
+    </script>
+  </body>
+</html>
